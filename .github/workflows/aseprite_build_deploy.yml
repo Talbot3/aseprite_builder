@@ -6,9 +6,9 @@ on:
   push:
     branches:
       - master
-strategy:
-   matrix:
-       os: [windows-latest, ubuntu-latest, macOS-latest]
+  strategy:
+     matrix:
+         os: [windows-latest, ubuntu-latest, macOS-latest]
 env:
   BUILD_TYPE: Release
   
